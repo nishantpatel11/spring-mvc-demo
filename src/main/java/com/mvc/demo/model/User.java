@@ -7,7 +7,7 @@ public class User {
 	private String lastname;
 	private String email;
 	private String address;
-	private int phone;
+	private Long phone;
 	public String getUsername() {
 		return username;
 	}
@@ -44,10 +44,10 @@ public class User {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public int getPhone() {
+	public Long getPhone() {
 		return phone;
 	}
-	public void setPhone(int phone) {
+	public void setPhone(Long phone) {
 		this.phone = phone;
 	}
 }
